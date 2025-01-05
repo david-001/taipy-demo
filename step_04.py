@@ -40,4 +40,5 @@ My text: <|{text}|>
                             "Score Neg":[1, 2, 0],
                             "Overall":[0, -1, 4]})
 
-    Gui(page).run(debug=True)
+    # Gui(page).run(debug=True)
+    Gui(page=page).run(page=page, host="0.0.0.0", port="10000")
